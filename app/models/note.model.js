@@ -9,6 +9,10 @@ const NoteSchema = mongoose.Schema({
       type: String,
       required: 'enter the messgae pal2'
   },
+    productImage: {
+      type: String,
+      required: true
+    },
     Created_date: {
       type: Date,
       default: Date.now
